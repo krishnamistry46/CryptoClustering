@@ -9,9 +9,13 @@ Further optimization of the clusters was achieved through Principal Component An
 The repository contains the following files:
 
 **README.md:** This ReadMe file for the project.
+
 **Crypto_Clustering_final.ipynb:** The completed Jupyter notebook.
+
 **Crypto_Clustering_starter.ipynb:** The provided Jupyter notebook with starter code.
+
 **Resources/crypto_market_data.csv:** The dataset used for the analysis.
+
 **images/:** A folder containing images used in the README file.
 
 ## Data Preparation
