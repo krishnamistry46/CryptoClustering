@@ -24,23 +24,29 @@ Data preparation involved the use of the StandardScaler function to standardize 
 # K-Value Algorithm
 ## Find the Best Value for k Using the Original Scaled Data
 The best K value was determined to be 4 after calculations using the elbow method.
+![image](https://github.com/user-attachments/assets/3eaa8e7b-4298-4247-9938-e27803bef355)
 
 ## Apply the K-means Algorithm to Cluster Cryptocurrencies
 Using the determined K value of 4, the K-means algorithm was applied to cluster the cryptocurrencies. The resulting clusters were plotted, but some overlap was observed, indicating that the clusters might not be well-separated.
+![image](https://github.com/user-attachments/assets/272000c3-f8c7-4b7a-b253-63c3e3d4a152)
 
 
 # PCA & K-Value Algorithm
 ## Perform a PCA to Reduce the Features to Three Principal Components
 PCA was performed to reduce the dataset's features to three principal components. This dimensionality reduction helps in visualizing the data more effectively and can improve clustering performance.
+![image](https://github.com/user-attachments/assets/240ea27e-58d7-4fc2-a5d2-5fc9dbce9556)
+
 
 ## Calculate the Total Explained Variance
 The total explained variance was calculated to be approximately 89.5% (0.8950316570309841), indicating that the three principal components retained most of the original dataset's information.
 
 ## Find the Best Value for k After PCA
 Using the PCA data, the best K value was re-evaluated and found to be 4, similar to the original scaled data.
+![image](https://github.com/user-attachments/assets/36a7e69d-577d-43d2-a5a9-12b38f824b2f)
 
 ## Apply the K-means Algorithm to Cluster Cryptocurrencies After PCA
 The K-means algorithm was again applied using the PCA data, resulting in well-separated clusters, with much less overlap compared to the original scaled data.
+![image](https://github.com/user-attachments/assets/aca9138e-6b6a-48db-8b13-802fcb61acb4)
 
 
 # Summary
